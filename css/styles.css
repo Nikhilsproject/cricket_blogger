@@ -31,11 +31,14 @@ a{
   text-decoration: none;
   color: #062C30;
 }
+
+
 .navbar-brand{
   color: #3f4954;
   font-size: 1.6rem;
   display: block;
 }
+
 
 .navbar-light{
   background-color: #EEEEEE;
@@ -72,13 +75,13 @@ a{
 /*- - - - - - - ------ title section ---- - - - - - - - -  */
 
 
-.title_name{
+.title_section{
   color: white;
   background-color: #364F6B;
   text-align: center;
   font-family: 'Lexend', sans-serif;
   padding: 9%;
-  font-size:
+  font-size: 2.5rem;
 }
 
 .btn{
@@ -199,3 +202,35 @@ footer{
 .newsletter{
   padding-left: 1rem;
 }
+
+
+@media (max-width: 1028px) {
+
+  .navbar{
+      padding: 1.8rem 0;
+  }
+
+  .navbar-brand{
+    font-size: 2.9rem;
+    padding-left: 1%;
+  }
+
+  .navbar-toggler-icon{
+    height: 2.8rem;
+    width:  2.8rem;
+    padding-right: 1%;
+  }
+
+  .nav-item{
+    font-size: 1.8rem;
+    padding: .5rem ;
+  }
+
+  .title_section{
+    padding: 15rem;
+  }
+
+  #title h1{
+    font-size: 2.8rem;
+    display: block;
+  }
