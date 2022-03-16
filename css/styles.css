@@ -1,12 +1,4 @@
 
-body{
-
-}
-
-#title{
-
-}
-
 /*- - - - - - - ------ navigation start ---- - - - - - - - -  */
 
 
@@ -226,11 +218,67 @@ footer{
     padding: .5rem ;
   }
 
+  .dropdown-item{
+    font-size: 1.3rem;
+  }
+
+
   .title_section{
-    padding: 15rem;
+    padding: 19rem;
   }
 
   #title h1{
-    font-size: 2.8rem;
-    display: block;
+    font-size: 4.3rem;
+    line-height: 1.1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .explore-btn{
+    margin-top: 1.1rem;
+    padding: 1.3rem 3rem;
+    font-size: 2rem;
+  }
+
+  .post-details{
+    font-size: 1.3rem;
+  }
+  #news h1{
+    font-size: 3.1rem;
+  }
+
+  #news h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  #news p{
+    font-size: 1.7rem;
+  }
+
+  h2{
+      font-size: 3.1rem;
+  }
+
+  .post-title h5{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .post-info{
+    font-size: 1.3rem;
+  }
+
+  #tournment li{
+    font-size: 1.6rem;
+  }
+
+  #footer p{
+    font-size: 1.3rem;
+  }
+
+  #footer .form-element{
+    width: 300px;
+    height: 36px;
+    margin-right:.5rem;
   }
